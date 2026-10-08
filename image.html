@@ -1,0 +1,48 @@
+<img src="image-url-or-file-path.jpg" alt="Description of the image">
+<img src="puppy.jpg" alt="A cute golden retriever puppy" width="500" height="300">
+<a href="https://example.com">
+  <img src="logo.png" alt="Visit Example Homepage" width="150" height="50">
+</a>
+<a href="https://example.com">
+  <img src="logo.png" alt="Visit Example Homepage" width="150" height="50">
+</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Image Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f9;
+        }
+        .image-container {
+            text-align: center;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="image-container">
+        <h1>My Image Page</h1>
+        <img src="https://picsum.photos" alt="A random landscape placeholder image" width="600" height="400" loading="lazy">
+        <p>This image is centered inside a styled card layout.</p>
+    </div>
+
+</body>
+</html>
